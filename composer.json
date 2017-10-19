@@ -1,0 +1,12 @@
+{
+    "name": "hasanmisbah/color-mag-child",
+    "description": "a child theme of color mag",
+    "type": "wordpress-theme",
+    "authors": [
+        {
+            "name": "'hasan misbah'",
+            "email": "hasanmisbah01@gmail.com"
+        }
+    ],
+    "require": {}
+}
