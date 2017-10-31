@@ -257,7 +257,7 @@ function colormag_entry_meta() {
    		$time_string
    	); ?>
 
-      <span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ); ?>" title="<?php echo get_the_author(); ?>"><?php echo esc_html( get_the_author() ); ?></a></span></span>
+      <span class="byline new"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="#" title="<?php echo get_the_author(); ?>"><?php echo esc_html( get_the_author() ); ?></a></span></span>
 
       <?php
       if ( ! post_password_required() && comments_open() ) { ?>

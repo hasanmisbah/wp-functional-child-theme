@@ -75,4 +75,5 @@ if(! function_exists( 'colormag_footer_copyright' )){
 }
 
 
+
 ?>

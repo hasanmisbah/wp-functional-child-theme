@@ -11,3 +11,47 @@
 	Tags: one-column, two-columns, right-sidebar, left-sidebar, flexible-header, custom-header, custom-background, custom-menu, custom-colors, sticky-post, threaded-comments, translation-ready, featured-images, theme-options, post-formats, footer-widgets, blog, e-commerce, news, rtl-language-support
 	Text Domain: colormag
 */
+
+html, body{
+	font-family: 'SolaimanLipi' !important;
+	font-weight: normal;
+}
+
+#masthead{
+	background: linear-gradient(to right, #1abc9c, #16a085);
+}
+#header-text-nav-container {
+	background: transparent;
+}
+div#header-text{
+/*	background-image: url(img/avijatrik-logo.png);
+	background-size: cover;
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	color: #fff;
+	height: 100px;
+	padding: 70px;*/
+}
+h1#site-title a{
+	color: #fff;
+}
+div#header-text h1{
+	
+}
+div#header-text p{
+	margin-top: 10px;
+}
+#header-text-nav-wrap{
+	padding: 0;
+}
+#header-right-sidebar aside, #header-right-section .widget{
+	font-size: 18px;
+	line-height: 20px;
+	text-align: left;
+	color: #fff;
+	margin-top: 35px;
+}
+p.header-text{
+	margin:0;
+}
